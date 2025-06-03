@@ -1,40 +1,44 @@
 # AI-ML-INTERNSHIP
 task-6
-____________________________________________________________
-🔹 1. Choose a classification dataset and normalize features
+____________________________________
+🔹1. Choose a classification 
+  dataset and normalize features
 
-Pick a dataset like Iris or Wine from sklearn.datasets or a CSV file.
+.Pick a dataset like Iris or Wine    from sklearn.datasets or a CSV      file.
 
-Split data into features (X) and labels (y).
+.Split data into features (X) and    labels (y).
 
-Normalize features using StandardScaler or MinMaxScaler to ensure equal weight in distance calculations.
+.Normalize features using            StandardScaler or MinMaxScaler to   ensure equal weight in distance     calculations.
 
-🔹 2. Use KNeighborsClassifier from sklearn
-Import KNeighborsClassifier from sklearn.neighbors.
+🔹2. Use KNeighborsClassifier from    sklearn
 
-Split data into training and testing sets with train_test_split.
+.Import KNeighborsClassifier from    sklearn.neighbors.
 
-Create and train the model using knn = KNeighborsClassifier(n_neighbors=K) and knn.fit().
+.Split data into training and        testing sets with train_test_split.
 
-🔹 3. Experiment with different values of K
-Try various K values (e.g., 1 to 20).
+.Create and train the model using    knn =                              KNeighborsClassifier(n_neighbors=K)  and knn.fit().
 
-For each K, train the model and test its accuracy.
+🔹3. Experiment with different       values of K
 
-Plot K vs accuracy to identify the best performing value of K.
+.Try various K values (e.g., 1 to    20).
 
-🔹 4. Evaluate model using accuracy, confusion matrix
-Use predict() on the test data.
+.For each K, train the model and     test its accuracy.
 
-Calculate accuracy using accuracy_score.
+.Plot K vs accuracy to identify the  best performing value of K.
 
-Generate and visualize the confusion matrix with confusion_matrix and seaborn.heatmap.
+🔹4. Evaluate model using accuracy,   confusion matrix
 
-🔹 5. Visualize decision boundaries
-Reduce to two features for 2D plotting.
+.Use predict() on the test data.
 
-Create a mesh grid covering the feature space.
+.Calculate accuracy using            accuracy_score.
 
-Predict over the grid and use contourf to plot regions.
+.Generate and visualize the          confusion matrix with               confusion_matrix and seaborn.heatmap.
 
-Overlay training points with scatter.
+🔹5. Visualize decision boundaries
+ Reduce to two features for 2D       plotting.
+
+.Create a mesh grid covering the     feature space.
+
+.Predict over the grid and use       contourf to plot regions.
+
+.Overlay training points with        scatter.
